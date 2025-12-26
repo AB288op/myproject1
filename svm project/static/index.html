@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <title>SVM Cuisine Predictor</title>
+  <link rel='stylesheet' href='/style.css'>
+</head>
+<body>
+  <main class='container'>
+    <h1>SVM Cuisine Predictor</h1>
+
+    <label for='dish'>Dish name (optional)</label>
+    <input id='dish' placeholder='e.g. pad thai' />
+
+    <label for='ingredients'>Ingredients (comma-separated or text)</label>
+    <textarea id='ingredients' placeholder='enter ingredients...' rows='6'></textarea>
+
+    <div class='actions'>
+      <button id='predictBtn'>Predict Country</button>
+      <button id='lookupBtn'>Lookup Dish (optional)</button>
+    </div>
+
+    <div id='result' class='result'></div>
+  </main>
+
+  <script src='/app.js'></script>
+</body>
+</html>
